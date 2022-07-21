@@ -16,7 +16,7 @@ output_file_dir = "./output/"
 output_file_name = output_file_dir + "proxies.txt"
 
 
-def create_or_emtpy_file():
+def create_empty_file():
     with open(output_file_name, 'w') as file:
         file.write("")
         pass
@@ -58,5 +58,5 @@ def start():
 
 
 # Start scrapping proxies
-create_or_emtpy_file()
+create_empty_file()
 start()
